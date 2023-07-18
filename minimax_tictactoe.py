@@ -69,7 +69,6 @@ class TicTacToe:
         self.turn = 'X'
         self.turn_label.config(text="Player X's turn")
 
- 
     def evaluate_board(self):
         for i in range(3):
             if self.game_state[i][0] == self.game_state[i][1] == self.game_state[i][2] != '':
